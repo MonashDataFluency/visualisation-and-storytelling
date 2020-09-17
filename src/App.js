@@ -48,9 +48,9 @@ class App extends Component {
       description:[
         {type:"p",content:"Have a look at the data in the console. What are the names of the two fields in each generated object? At the tennis example, they were Name, Weeks and Gender."},
         {type:"ul", content:[
-          "Use the Javascript map function to save the content of the two fields in two respective arrays. For the tennis player names, we did: <br><code>var names = data.map(function(d) {return d.Name});</code>",
+          "Save the content of the two fields into two separate arrays, one for each field.  In our tennis players example, we took the contents of the field 'Name' in our 'data' object, and saved it into an array called 'names', using the Javascript map function, just like this: <br><code>var names = data.map(function(d) {return d.Name});</code><br>Try modifying this code to extract the contents of our two fields and save each field into a separate array.",
           "Use <code>console.log(your_array_name)</code> to print the contents of the new arrays.",
-          "Create a chartJS Chart object. Check <a href='https://www.chartjs.org/docs/latest/getting-started/'>the documentation</a> to see the syntax. The first parameter of the <code>new Chart()</code> call must be your canvas element id.",
+          "Create a chartJS Chart object. Find the commented code in the JS and uncomment it. You can check <a href='https://www.chartjs.org/docs/latest/getting-started/'>the documentation</a> to see the detailed syntax.",
           "Use one of your generated arrays as labels, and one as data. Think about which makes sense. Also think about which TYPE of chart makes sense. Try out different ones: <a href='https://www.chartjs.org/docs/latest/charts/'>Types of Charts</a>"
 
 
@@ -96,7 +96,7 @@ class App extends Component {
         {type: "p", content: "The makeChart function now gets 2 parameters, one for each dataset. Your job is to adjust the program to also read the data for the world, and display it in a separate dataset on the graph."},
         {type:"ul", content:[
           "Use the array.map function to save the world data stored in the new dataset [worlddata] in a separate array.",
-          "Add the second dataset to the chart, using the new array. Give both the existing and the new dataset a label (Australia and World).",
+          "Add the second dataset to the chart, using the new array. Give both the existing and the new dataset a label (Australia and World). Use the label property of the dataset block.",
           "Now we have 2 lines and they need to be distinguishable from one another. Add a borderColor to both datasets. The legend now also needs to be displayed, so a viewer can see what the two lines mean.",
           "The title of the page does not quite fit anymore. Feel free to change it inside the HTML document."
 
