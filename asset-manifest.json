@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/visualisation-and-storytelling/static/css/main.32b86ac0.chunk.css",
-    "main.js": "/visualisation-and-storytelling/static/js/main.26bdcb3f.chunk.js",
-    "main.js.map": "/visualisation-and-storytelling/static/js/main.26bdcb3f.chunk.js.map",
-    "runtime-main.js": "/visualisation-and-storytelling/static/js/runtime-main.0ee429ba.js",
-    "runtime-main.js.map": "/visualisation-and-storytelling/static/js/runtime-main.0ee429ba.js.map",
-    "static/js/2.63b2a197.chunk.js": "/visualisation-and-storytelling/static/js/2.63b2a197.chunk.js",
-    "static/js/2.63b2a197.chunk.js.map": "/visualisation-and-storytelling/static/js/2.63b2a197.chunk.js.map",
-    "index.html": "/visualisation-and-storytelling/index.html",
-    "precache-manifest.fc23e85bd2ff2fe5a1ff646791029328.js": "/visualisation-and-storytelling/precache-manifest.fc23e85bd2ff2fe5a1ff646791029328.js",
-    "service-worker.js": "/visualisation-and-storytelling/service-worker.js",
-    "static/css/main.32b86ac0.chunk.css.map": "/visualisation-and-storytelling/static/css/main.32b86ac0.chunk.css.map",
-    "static/js/2.63b2a197.chunk.js.LICENSE.txt": "/visualisation-and-storytelling/static/js/2.63b2a197.chunk.js.LICENSE.txt",
-    "static/media/finishedVis.jpg": "/visualisation-and-storytelling/static/media/finishedVis.8ef92bcf.jpg"
+    "main.css": "/storytellingVis/static/css/main.bdb9ac87.chunk.css",
+    "main.js": "/storytellingVis/static/js/main.8566e062.chunk.js",
+    "main.js.map": "/storytellingVis/static/js/main.8566e062.chunk.js.map",
+    "runtime-main.js": "/storytellingVis/static/js/runtime-main.703411f0.js",
+    "runtime-main.js.map": "/storytellingVis/static/js/runtime-main.703411f0.js.map",
+    "static/js/2.63b2a197.chunk.js": "/storytellingVis/static/js/2.63b2a197.chunk.js",
+    "static/js/2.63b2a197.chunk.js.map": "/storytellingVis/static/js/2.63b2a197.chunk.js.map",
+    "index.html": "/storytellingVis/index.html",
+    "precache-manifest.54d6c6b185b5b855153f692384c6cf94.js": "/storytellingVis/precache-manifest.54d6c6b185b5b855153f692384c6cf94.js",
+    "service-worker.js": "/storytellingVis/service-worker.js",
+    "static/css/main.bdb9ac87.chunk.css.map": "/storytellingVis/static/css/main.bdb9ac87.chunk.css.map",
+    "static/js/2.63b2a197.chunk.js.LICENSE.txt": "/storytellingVis/static/js/2.63b2a197.chunk.js.LICENSE.txt",
+    "static/media/finishedVis.jpg": "/storytellingVis/static/media/finishedVis.8ef92bcf.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0ee429ba.js",
+    "static/js/runtime-main.703411f0.js",
     "static/js/2.63b2a197.chunk.js",
-    "static/css/main.32b86ac0.chunk.css",
-    "static/js/main.26bdcb3f.chunk.js"
+    "static/css/main.bdb9ac87.chunk.css",
+    "static/js/main.8566e062.chunk.js"
   ]
 }
