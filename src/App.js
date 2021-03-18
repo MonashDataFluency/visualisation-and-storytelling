@@ -166,8 +166,7 @@ const Exercise = ({ stepId, description, codepenLink }) => {
        </ul>}
        </div>
     )}
-    {codepenLink ? <button className="btn" type="button" onClick={onClick}> Toggle Codepen {stepId} <span className="arrow">{arrow}</span> </button> : ""}
-     {codepenLink && showResults ? <div><p> {codepenLink}</p> <iframe className="iFrame" src={codepenLink} title="Exercise Step 1"></iframe> </div>: ""}
+     {codepenLink ? <div><a href={codepenLink} target="_blank">{codepenLink}</a></div>: ""}
 
   </section>
   )
